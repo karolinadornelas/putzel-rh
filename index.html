@@ -1,116 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" href="assets/Vector (3).png" type="image/x-icon" />
-    <link rel="stylesheet" href="main.css" />
-    <title>Maria Putzel</title>
-  </head>
-  <body>
-    <nav>
-      <ul>
-        <li>
-          <img src="./assets/icons/home.svg" alt="ícone home" />
-          <a href="#">início</a>
-        </li>
-        <li>
-          <img src="./assets/icons/briefcase.svg" alt="ícone maleta" />
-          <a href="#">serviços</a>
-        </li>
-        <li>
-          <img src="./assets/icons/user.svg" alt="ícone user" />
-          <a href="#">sobre</a>
-        </li>
-        <li>
-          <img src="./assets/icons/phone.svg" alt="ícone phone" />
-          <a href="#">contato</a>
-        </li>
-      </ul>
-    </nav>
 
-    <div id="content-container">
-      <div id="content-intro">
-        <div class="content-intro-profile">
-          <div class="profile-deco-box">
-            <img src="./assets/profile.png" alt="foto de perfil Maria Putzel" />
-            <h1>Maria Putzel</h1>
-            <div class="icon-box">
-              <i class="fa-brands fa-whatsapp"></i>
-              <i class="fa-brands fa-linkedin-in"></i>
-              <i class="fa-brands fa-instagram"></i>
-            </div>
-            <p>Mentoria Prepare-se (transição de carreira e área tech)</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="assets/icons/Vector (3).png" type="image/x-icon" />
+  <link rel="stylesheet" href="main.css" />
+  <title>Maria Putzel</title>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li>
+        <!-- <img src="./assets/icons/home.svg" alt="ícone home" /> -->
+        <a href="#"><i class="fa-solid fa-house"></i>início</a>
+      </li>
+      <li>
+        <!-- <img src="./assets/icons/briefcase.svg" alt="ícone maleta" /> -->
+        <a href="#"><i class="fa-solid fa-briefcase"></i>serviços</a>
+      </li>
+      <li>
+        <!-- <img src="./assets/icons/user.svg" alt="ícone user" /> -->
+        <a href="#"><i class="fa-solid fa-user"></i>sobre</a>
+      </li>
+      <li>
+        <!-- <img src="./assets/icons/phone.svg" alt="ícone phone" /> -->
+        <a href="#"><i class="fa-solid fa-phone"></i>contato</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div id="content-container">
+    <div id="content-intro">
+      <div class="content-intro-profile">
+        <div class="profile-deco-box">
+          <img src="./assets/profile.png" alt="foto de perfil Maria Putzel" />
+          <h1>Maria Putzel</h1>
+          <div class="line"></div>
+          <div class="icon-box">
+            <a href="https://wa.me/5542998351205?text=Ol%C3%A1%20Maria!%20Quero%20saber%20sobre%20seus%20servi%C3%A7os"><i
+                class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/maria-gabriela-putzel-06a479201/"><i
+                class="fa-brands fa-linkedin-in"></i></a>
+            <i class="fa-brands fa-instagram"></i>
           </div>
-          <button id="budget-contact">Faça seu orçamento</button>
+          <p>Mentoria Prepare-se (transição de carreira e área tech)</p>
+        </div>
+        <button id="budget-contact">Faça seu orçamento</button>
+      </div>
+
+      <div class="content-info-cards">
+        <div class="candidate-card">
+          <h2>Candidatos</h2>
+          <div class="p-a">
+            <p>
+              Está precisando de dicas valiosas para conquistar a vaga dos sonhos ou
+              até mesmo dar uma renovada no visual do seu currículo!? Estou à disposição para ajudar!<br />
+            </p>
+            <ul>
+              <li>Reestruturação de currículos</li>
+              <li>Avaliação e estrutura de Linkedin</li>
+            </ul>
+          </div>
         </div>
 
-        <div class="content-info-cards">
-          <div class="candidate-card">
-            <h2>Candidatos</h2>
-            <div class="p-a">
-              <p>
-                Está precisando de dicas valiosas para o processo seletivo ou
-                até mesmo dar uma renovada no visual do seu currículo!? <br />
-              </p>
-              <div class="link-deco">
-                <a href="#">Estou à disposição para ajudar!</a>
-                <img class="img-deco-info" src="./assets/lupa.png" alt="lupa" />
-              </div>
-            </div>
-          </div>
+        <div class="organization-card">
+          <h2>Empresas</h2>
+          <div class="p-ul">
+            <p>
+              Encontre o candidato ideal para a sua organização!
+              <br />
+            </p>
+            <ul>
+              <li>Estratégias para captação de currículos</li>
+              <li>Elaboração de artes para diulgação de vagas</li>
+            </ul>
+            <!-- <img src="./assets/search-girl (2).png" alt="lupa" /> -->
 
-          <div class="organization-card">
-            <h2>Empresas</h2>
-            <div class="p-ul">
-              <p>
-                Encontre o candidato ideal para a sua organização!
-                <br />
-              </p>
-              <ul>
-                <li>Estratégias para captação de currículos</li>
-                <li>Elaboração de artes para diulgação de vagas</li>
-              </ul>
-              <!-- <div class="link-deco">
+            <!-- <div class="link-deco">
                 <a href="#">Estou à disposição para ajudar!</a>
                 <img class="img-deco-info" src="./assets/lupa.png" alt="lupa" />
               </div> -->
-            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="content-intro-text">
+      <div class="services-box">
+        <h1>Serviços</h1>
+        <div class="service-list">
+          <div class="service-list-bx">
+            <i class="fa-solid fa-circle"></i>
+            <h4>Recrutamento e seleção</h4>
+          </div>
+          <div class="service-list-bx">
+            <i class="fa-solid fa-circle"></i>
+            <h4>Banco de talentos</h4>
+          </div>
+          <div class="service-list-bx"><i class="fa-solid fa-circle"></i>
+            <h4>Triagem de estagiários</h4>
+          </div>
+          <div class="service-list-bx"><i class="fa-solid fa-circle"></i>
+            <h4>Mentoria e transição de carreira</h4>
           </div>
         </div>
       </div>
 
-      <div id="content-intro-text">
-        <div class="services-box">
-            <h1>Serviços</h1>
-            <div class="service-list">
-                <ul>
-                    <li>Recrutamento e seleção</li>
-                    <li>Banco de talentos</li>
-                    <li>Triagem de estagiários</li>
-                    <li>Mentoria e transição de carreira</li>
-                </ul>
-            </div>
+      <div class="img-service-deco">
+        <img src="./assets/lagom-background-office.png" alt="escritório">
+      </div>
+
+    </div>
+
+    <div id="content-about">
+      <div class="left-side">
+        <div class="img-profile">
+          <img src="./assets/profile-about.png" alt="foto Maria Putzel">
         </div>
 
-        <div class="img-dervice-deco">
-            <img src="./assets/lagom-background-office.png" alt="escritório">
+        <div class="deco-lines">
+          <img src="./assets/straw.png" alt="linhas decorativas">
+          <img src="./assets/straw.png" alt="linhas decorativas">
         </div>
-       
+      </div>
+
+
+      <div class="right-side">
+        <div class="about-txt">
+          <div class="clip-stack">
+            <img src="./assets/clip.png" alt="cilp">
+          </div>
+          <div class="icon-box-circle">
+            <i class="fa-solid fa-circle"></i>
+            <i class="fa-solid fa-circle"></i>
+            <i class="fa-solid fa-circle"></i>
+          </div>
+          <p>Me chamo Maria Gabriela Putzel e sou completamente apaixonada por Atração e Seleção de Talentos. </p>
+          <p>Formada em Gestão de Recursos Humanos e pós graduanda em Treinamento e Desenvolvimento.</p>
+
+          <p>Além de trabalhar para empresas na captação de candidatos, tenho um programa de mentoria individual, onde
+            ajudo a melhorar a estutura do seu currículo e linkedin.</p>
+
+          <p>Também auxilio no processo de introdução no mercado de trabalho ou migração de área.</p>
+        </div>
+
       </div>
     </div>
-  </body>
+
+    <div id="content-reviews">
+      <div class="user-cards">
+        <div class="user-card">
+          <img src="./assets/users/user-4.png" alt="user">
+          <h3>Luiz Fernando</h3>
+          <hr>
+          <p>“Atenciosa, dedicada e esclarecedora. Maria me surpreendeu com insights valiosos. Profissional dinâmica, com ótimo conhecimento.”</p>
+        </div>
+        <div class="user-card">
+          <img src="./assets/users/user-1.jpeg" alt="user">
+          <h3>Guilherme Possebom</h3>
+          <hr>
+          <p>“Ótima recruter, está sempre interagindo nas redes, sempre se disponibilizando a ajudar todos que
+            precisam.”</p>
+        </div>
+        <div class="user-card">
+          <img src="./assets/users/user-2.jpeg" alt="user">
+          <h3>Gislene Gonçalves</h3>
+          <hr>
+          <p>“Recomendo o trabalho da Maria Gabriela, o conhecimento dela na área de Recrutamento e Seleção é incrível.”
+          </p>
+        </div>
+      </div>
+      <button>Veja mais recomendações <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+    <div id="budget-contact-int">
+      <div class="budget-deco">
+        <a href="">Agende sua consultoria</a>
+        <img src="./assets/people-reunion.png" alt="">
+      </div>
+
+      <div class="budget-info">
+        <canvas id="canvas_grafico" width="500" height="500">
+        </canvas>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-units">
+        <div class="footer-links">
+          <h3>Entre em contato</h3>
+          <a href="https://wa.me/5542998351205?text=Ol%C3%A1%20Maria!%20Quero%20saber%20sobre%20seus%20servi%C3%A7os">
+            <i class="fa-brands fa-whatsapp"></i>
+            Agende sua consultoria
+          </a>
+          <a href="https://www.linkedin.com/in/maria-gabriela-putzel-06a479201/">
+            <i class="fa-brands fa-linkedin-in"></i>
+            Vamos nos conectar! 
+          </a>
+          <a href="https://www.linkedin.com/in/maria-gabriela-putzel-06a479201/">
+            <i class="fa-brands fa-instagram"></i>
+            gabrielaputzel 
+          </a>
+        </div>
+
+        <div class="footer-links">
+          <h3>Navegação</h3>
+          <a href="https://www.linkedin.com/posts/maria-gabriela-putzel-06a479201_gratidaeto-favikon-activity-7138179312100196352-Ylok?utm_source=share&utm_medium=member_desktop">
+            <i class="fa-solid fa-home"></i> 
+            Voltar ao início
+          </a>
+          <a
+            href="https://www.linkedin.com/posts/maria-gabriela-putzel-06a479201_quinta-feira-iniciando-com-mutirao-x%C3%B4-desemprego-activity-7166399451140407297-fStD?utm_source=share&utm_medium=member_desktop">
+            <i class="fa-solid fa-briefcase"></i>
+            Serviços
+          </a>
+          <a
+            href="https://www.linkedin.com/posts/maria-gabriela-putzel-06a479201_vamos-iniciar-nossa-quinta-feira-ampliando-activity-7148639092614877189-gpcD?utm_source=share&utm_medium=member_desktop">
+            <i class="fa-solid fa-user"></i>
+            Sobre
+          </a>
+        </div>
+
+        
+        <div class="footer-links">
+          <h3>LinkedIn</h3>
+          <a href="https://www.linkedin.com/posts/maria-gabriela-putzel-06a479201_gratidaeto-favikon-activity-7138179312100196352-Ylok?utm_source=share&utm_medium=member_desktop">
+            <i class="fa-solid fa-arrow-right"></i> 28# LinkedIn Top Voices
+          </a>
+          <a
+            href="https://www.linkedin.com/posts/maria-gabriela-putzel-06a479201_quinta-feira-iniciando-com-mutirao-x%C3%B4-desemprego-activity-7166399451140407297-fStD?utm_source=share&utm_medium=member_desktop">
+            <i class="fa-solid fa-arrow-right"></i> Multirão xô desemprego
+          </a>
+          <a
+            href="https://www.linkedin.com/posts/maria-gabriela-putzel-06a479201_vamos-iniciar-nossa-quinta-feira-ampliando-activity-7148639092614877189-gpcD?utm_source=share&utm_medium=member_desktop">
+            <i class="fa-solid fa-arrow-right"></i> Aumentando nossa rede
+          </a>
+        </div>
+      </div>
+      <hr>
+      <div class="copyright">
+        <p><i class="fa-regular fa-copyright"></i>2024</p>
+        
+        <div></div><p><i class="fa-brands fa-github"></i></p>
+      </div>
+    </footer>
+  </div>
+</body>
+<script src="./script.js"></script>
+
 </html>
