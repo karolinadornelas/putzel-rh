@@ -883,6 +883,7 @@ footer hr {
         height: auto;
         width: 389px;
         padding: 15px;
+        padding-bottom: 25px;
     }
 
     .img-profile img {
@@ -909,7 +910,7 @@ footer hr {
         padding: 20px;
         width: 300px;
         margin-top: -95px;
-        margin-left: -5px;
+        margin-left: 10px;
     }
 
     .clip-stack img {
@@ -947,5 +948,48 @@ footer hr {
     .budget-info{
         margin: 10px;
         padding: 15px;
+    }
+    
+    .img-profile img{
+        display: none;
+    }
+
+    .deco-lines {
+        display: flex;
+        margin-top: -355px;
+    }
+
+    footer {
+        background-color: var(--berkley-blue);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+    }
+    
+    footer i {
+        color: white;
+        margin: 10px;
+    }
+    
+    footer hr {
+        width: 950px;
+    
+    }
+    
+    .footer-units {
+        display: block;
+    }
+    
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        margin: 25px;
+    }
+    
+    .footer-links a {
+        color: var(--powder-blue);
+        text-decoration: none;
     }
 }
